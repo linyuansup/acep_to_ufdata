@@ -1,0 +1,20 @@
+name: dart_test
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.1.0
+
+# Add regular dependencies here.
+dependencies:
+  es_compression: ^2.0.10
+  xml2json: ^6.2.0
+  # path: ^1.8.0
+
+dev_dependencies:
+  json_serializable: ^6.7.1
+  json_annotation: ^4.8.1
+  lints: ^2.0.0
+  build_runner: ^2.4.1
+  test: ^1.21.0
